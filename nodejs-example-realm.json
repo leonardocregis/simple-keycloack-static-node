@@ -42,26 +42,14 @@
         }
     ],
     "clients": [
-        {
-            "clientId": "nodejs-connect",
-            "enabled": true,
-            "publicClient": true,
-            "baseUrl": "/",
-            "adminUrl" : "http://localhost:3000/",
-            "baseUrl" : "http://localhost:3000/",
-            "redirectUris": [
-                "http://localhost:3000/*"
-            ],
-            "webOrigins": []
-        },
-		{
+	{
             "clientId": "html5",
             "enabled": true,
             "publicClient": true,
             "baseUrl": "/",
             "adminUrl" : "http://localhost:3001/",
             "baseUrl" : "http://localhost:3001/",
-			"redirectUris": [
+	    "redirectUris": [
                 "http://localhost:3000/*"
             ],
             "webOrigins": ["http://localhost:3001/"]
