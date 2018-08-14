@@ -36,6 +36,11 @@ If everything is correct as above , you should then clone the repository from gi
   #install using npm the dependencies
   npm i
   
+  #then run the app and try
+  npm start
+  
+  #go to the url
+  http://localhost:3001/
 
   
   
