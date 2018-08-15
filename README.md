@@ -51,5 +51,9 @@ If everything is correct as above , you should then clone the repository from gi
   
   http://localhost:3001/
 
+
+Known eventual problems:
+  Using the windows 10 pro with the hyper-v , will run with localhost, so you need to update keycloak.json regarding that
+  change the entry "auth-server-url": "http://192.168.99.100:18080/auth", to "auth-server-url": "http://localhost:18080/auth",
   
   
